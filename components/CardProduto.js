@@ -2,7 +2,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-// Estilos
 const cardStyle = {
   border: '1px solid #e2e8f0',
   borderRadius: '10px',
@@ -30,7 +29,7 @@ const productNameStyle = {
   fontSize: '1.25rem',
   fontWeight: '600',
   margin: '16px 0 8px 0',
-  minHeight: '50px' // Garante alinhamento
+  minHeight: '50px' 
 };
 
 const productDescStyle = {
@@ -55,7 +54,7 @@ const seeMoreButtonStyle = {
   cursor: 'pointer',
   fontSize: '1rem',
   fontWeight: 'bold',
-  textDecoration: 'none', // Para o Link
+  textDecoration: 'none', 
   display: 'inline-block',
   transition: 'background-color 0.2s',
 };
