@@ -68,7 +68,7 @@ const CardProduto = ({ id, nome, descricao, preco, imagem }) => {
       </div>
       <div>
         <h2 style={productNameStyle}>{nome}</h2>
-        <p style={productDescStyle}>{descricao.substring(0, 80)}...</p> {/* Mostra apenas um trecho */}
+        <p style={productDescStyle}>{descricao.substring(0, 80)}...</p> 
         <h3 style={productPriceStyle}>{preco}</h3>
         <Link href={`/produtos/${id}`} passHref>
           <span style={seeMoreButtonStyle}>Ver Mais</span>
