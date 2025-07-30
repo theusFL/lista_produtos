@@ -16,6 +16,7 @@ const ListaProdutos = () => {
       {produtos.map((produto) => (
         <CardProduto
           key={produto.id}
+          id={produto.id} // <-- Passando o ID
           nome={produto.nome}
           descricao={produto.descricao}
           preco={produto.preco}
